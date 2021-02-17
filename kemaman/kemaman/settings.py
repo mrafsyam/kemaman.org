@@ -25,7 +25,7 @@ SECRET_KEY = '+tem+t9v@f8g$11)v*x0^c^lk2l&qu)vg1t2j&+^#i@nu$v2k4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kemaman.org','94.237.78.193','localhost','127.0.0.1']
 
 
 # Application definition
