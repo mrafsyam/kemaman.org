@@ -124,21 +124,25 @@
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
 
-							<p>Why Kemaman? Because I'm Kemaman-bred, wander from coast-to-coast, and currently settling down in Cyberjaya.</p>
+							<p><b>Why Kemaman?</b></p>
+
+							<p>Because I'm Kemaman-bred, wandered from coast-to-coast, and currently settling down in Cyberjaya.</p>
 
 							<p>I graduated college with a degree in Electronics Engineering from MMU, Cyberjaya. During my final years, I spent a ton of hours learning to code, exploring my Fedora box, working on IOT devices, creating websites, building mobile apps etc.</p>
 
-							<p>Three months before I graduated, Accenture accepted me as a Junior Software Engineer. A year later, Kendra Solutions took me in as a Software Engineer and I have been with them since.</p>
+							<p>Three months before I graduated, <a href="https://www.accenture.com/my-en"><b>Accenture</b></a> accepted me as a Junior Software Engineer. A year later, <a href="https://kendra-solutions.com/"><b>Kendra Solutions</b></a> took me in as a Software Engineer and I have been with them since.</p>
 							
-							<p>Why do I code?</p>
+							<p><b>Why do I code?</b></p>
 							
 							<p>I enjoy solving technical problems. I am passionate and excited to learn new things tech. I like to teach myself new concepts. I may not know every single one of the latest technologies, but I'd like to think that given a problem, I would be able to break it down and provide workable solutions.</p>
 							
-							<p>My work with Kendra Solutions have revolved around Payment Gateway, Payment Integration and E-recharge Systems, which handles ten of thousands daily transactions. Most of the applications are built on Java, Python, Bash and MySQL, primarily focus on backend implementation of SOAP and RESTful APIs.</p>
+							<p>My work with Kendra Solutions have revolved around <b>Payment Gateway, Payment Integration Systems</b> and <b>E-recharge Systems</b>, which handles ten of thousands daily transactions. Most of the applications are built on <b>Java, Python, Bash and MySQL</b>, primarily focused on the backend implementation of SOAP and RESTful APIs.</p>
+
+							<p><b>What else do I do?</b></p>
 							
-							<p>Recently, I have started to pick up Flutter Mobile App developement and have published 3 Apps both on Google Play and Apple Store since 2019. </p>
+							<p>Recently, I have started to pick up Flutter Mobile App developement and have since published 3 Apps both on Google Play and Apple Store. See my <a href="#portfolio"><b>works.</b></a> </p>
 							
-							<p>On the side, I write a blog and teach people to code. I also regularly play organized basketball and go camping.</p>
+							<p>On the side, I write a blog and teach people to code. I also regularly play organized <b>basketball</b> and go <b>camping</b>.</p>
 							
 						</div>
 					</div>
@@ -185,21 +189,56 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
 						<h2 class="pfblock-title">My works</h2>
 
-						<p>To be updated.</p>
+						<p>The following are the Flutter based apps which I have worked on.  
+						 All have been released to both Google Play and Apple Store.</p>
 						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
+					<div class="wow fadeInUp">
 
-						</div>
-					</div>
+</div>
+</div>
+<div class="row">
 
+<div class="col-md-4">
+    <a  href="https://play.google.com/store/apps/details?id=org.kemaman.bestpay">
+        <img  src="{% static 'personal/images/bestpay.png' %}" alt="BestPay Solution">
+        
+    </a>
+    <br>
+    <br>
+    <p class="pfblock-title">BestPay Solution - A digital payment app for Malaysian.</p>
+</div>
+<div class="col-md-4">
+    <a  href="https://play.google.com/store/apps/details?id=org.kemaman.hrja">
+        <img   src="{% static 'personal/images/ihsan_career.png' %}" alt="Ihsan Career">
+
+    </a>
+    <br>
+    <br>
+    <p class="pfblock-title">Ihsan Career - A local HR outsourcing app.</p>
+</div>
+<div class="col-md-4">
+    <a href="https://play.google.com/store/apps/details?id=org.kemaman.jobgrabber">
+        <img  src="{% static 'personal/images/jobgrabber.png' %}" alt="JobGrabber">
+    </a>
+    <br>
+    <br>
+    <p class="pfblock-title">JobGrabber - The one stop solution for job seekers.</p>
+</div>
+
+			<!-- 			<div class="row">
+			<img class="thumb" src="{% static 'personal/images/bestpay.png' %}" alt="BestPay Solutions" style="filter:grayscale(30%);">
+			<img class="thumb" src="{% static 'personal/images/ihsan_career.png' %}" alt="Ihsan Career" style="filter:grayscale(30%);">
+			<img class="thumb" src="{% static 'personal/images/jobgrabber.png' %}" alt="JobGrabber" style="filter:grayscale(30%);">
+
+					</div> -->
+			
 				</div>
-
-			</div><!-- .row -->
+					
+				
 
 			<div class="row">
 				{% for project in list_projects|slice:":2" %}
